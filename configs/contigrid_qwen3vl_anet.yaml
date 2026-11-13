@@ -1,0 +1,10 @@
+# ContiGrid on Qwen3-VL-8B, ActivityNet Captions (0.5 fps, unit-consistent frame-index labels).
+model: Qwen/Qwen3-VL-8B-Instruct
+dataset: anet
+split: test
+fps: 0.5
+thumb: 320
+stride: 7
+method: iso+dedup
+dedup: last+pad
+labels: frames

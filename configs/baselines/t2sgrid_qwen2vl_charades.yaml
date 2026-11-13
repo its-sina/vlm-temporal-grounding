@@ -1,0 +1,7 @@
+# T2SGrid baseline: overlapping 4x3 grid images (stride 7), standard joint encoding, all copies kept.
+model: Qwen/Qwen2-VL-7B-Instruct
+dataset: charades
+fps: 1.0
+thumb: 336
+stride: 7
+method: full

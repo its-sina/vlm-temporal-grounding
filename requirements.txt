@@ -1,0 +1,20 @@
+# Core (tested with Python 3.10, torch 2.6.0, transformers 4.57.0)
+torch>=2.4
+torchvision>=0.19
+transformers>=4.57,<5
+accelerate>=1.0
+qwen-vl-utils>=0.0.14
+moviepy>=1.0.3,<2
+numpy>=1.24
+pillow>=10
+pyyaml>=6
+
+# Video decoding backends used by qwen-vl-utils for native video input
+decord>=0.6
+av>=12
+
+# GPU inference uses FlashAttention-2 (install separately, matching your CUDA/torch build):
+#   pip install flash-attn --no-build-isolation
+
+# Tests
+pytest>=8

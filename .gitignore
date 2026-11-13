@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Data, models and outputs (configured via --data-dir / VTG_* environment variables)
+data/
+cache/
+results/
+logs/
+checkpoints/
+*.npz
+*.mp4
+*.mkv
+*.avi
+*.webm
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store

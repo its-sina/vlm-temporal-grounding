@@ -1,0 +1,6 @@
+# Native video input with the time-in-seconds question (usable at any sampling rate).
+model: Qwen/Qwen3-VL-8B-Instruct
+dataset: charades
+method: seq
+vfps: 2.0
+prompt: mo

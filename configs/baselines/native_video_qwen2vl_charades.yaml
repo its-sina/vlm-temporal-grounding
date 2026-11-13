@@ -1,0 +1,6 @@
+# Native video input at 1 fps (frame-index question; frame index == second at 1 fps).
+model: Qwen/Qwen2-VL-7B-Instruct
+dataset: charades
+method: seq
+vfps: 1.0
+prompt: numpro

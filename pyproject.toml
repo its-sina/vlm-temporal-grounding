@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vlm-temporal-grounding"
+version = "0.1.0"
+description = "Training-free video temporal grounding with vision-language models using efficient visual-token organization, temporal windowing, and delimiter-aware representations."
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = [
+    "torch>=2.4",
+    "torchvision>=0.19",
+    "transformers>=4.57,<5",
+    "accelerate>=1.0",
+    "qwen-vl-utils>=0.0.14",
+    "moviepy>=1.0.3,<2",
+    "numpy>=1.24",
+    "pillow>=10",
+    "pyyaml>=6",
+]
+
+[project.optional-dependencies]
+gpu = ["flash-attn>=2.6"]
+video = ["decord>=0.6", "av>=12"]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"

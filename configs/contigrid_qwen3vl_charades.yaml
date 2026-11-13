@@ -1,0 +1,11 @@
+# ContiGrid on Qwen3-VL-8B (16-px patches: 320-px cells align with the 2x2 token merge).
+model: Qwen/Qwen3-VL-8B-Instruct
+dataset: charades
+split: test
+fps: 1.0
+thumb: 320
+cols: 4
+rows: 3
+stride: 7
+method: iso+dedup
+dedup: last+pad

@@ -1,0 +1,9 @@
+# No grid: each frame its own image, shown once (last-occurrence window labels). The image wrapper
+# tokens <|vision_end|><|vision_start|> act as delimiters between consecutive frames.
+model: Qwen/Qwen2-VL-7B-Instruct
+dataset: charades
+thumb: 336
+stride: 7
+method: frameseq
+dedup: last
+label: window

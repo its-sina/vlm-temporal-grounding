@@ -1,0 +1,11 @@
+# ContiGrid on Qwen2.5-VL-7B with time labels ("<0.0s to 11.0s>") and a time-in-seconds question.
+model: Qwen/Qwen2.5-VL-7B-Instruct
+dataset: charades
+split: test
+fps: 1.0
+thumb: 336
+stride: 7
+method: iso+dedup
+dedup: last+pad
+labels: frames
+prompt: mo

@@ -1,0 +1,10 @@
+# Per-frame sequence with the inner delimiter ids replaced by newline tokens (embedding lookup only;
+# positions and token count unchanged).
+model: Qwen/Qwen2-VL-7B-Instruct
+dataset: charades
+thumb: 336
+stride: 7
+method: frameseq
+dedup: last
+label: window
+sep: neutral

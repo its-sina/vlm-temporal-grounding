@@ -1,0 +1,7 @@
+# T2SGrid on ActivityNet Captions (0.5 fps, no overlap, reference labelling of the partial window).
+model: Qwen/Qwen2-VL-7B-Instruct
+dataset: anet
+fps: 0.5
+thumb: 336
+stride: 12
+method: full
