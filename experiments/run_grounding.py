@@ -11,10 +11,10 @@ Methods (``--method BASE[+dedup]``):
   bbridge    non-overlapping grids + bridging grids at window boundaries (requires stride == cols*rows)
   +dedup     drop repeated frame copies (``--dedup first|last|center``, ``+pad`` drops padding cells)
 
-ContiGrid is ``--method iso+dedup --dedup last+pad`` with overlapping windows (see configs/).
+Deduplicated grid: ``--method iso+dedup --dedup last+pad`` with overlapping windows (see configs/).
 
 Examples:
-  python experiments/run_grounding.py --config configs/contigrid_qwen2vl_charades.yaml --exp contigrid
+  python experiments/run_grounding.py --config configs/dedup_grid_qwen2vl_charades.yaml --exp dedup_grid
   python experiments/run_grounding.py --config configs/baselines/t2sgrid_qwen2vl_charades.yaml --exp t2sgrid --shard 0/4
 
 Frames come from the cache written by experiments/extract_frames.py (or are decoded on the fly when

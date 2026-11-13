@@ -46,8 +46,8 @@ METHODS = {  # name: (base, stride, dedup policy or None)
     "t2sgrid_s6": ("full", 6, None),
     "dedup_last_pad_s7": ("full", 7, "last+pad"),
     "per_frame_s12": ("iso", 12, None),
-    "contigrid_s7": ("iso", 7, "last+pad"),
-    "contigrid_s6": ("iso", 6, "last+pad"),
+    "dedup_grid_s7": ("iso", 7, "last+pad"),
+    "dedup_grid_s6": ("iso", 6, "last+pad"),
     "frameseq_s7": ("frameseq", 7, None),
 }
 

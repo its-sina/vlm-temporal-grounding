@@ -1,4 +1,4 @@
-# ContiGrid on Qwen3-VL-8B (16-px patches: 320-px cells align with the 2x2 token merge).
+# Deduplicated grid on Qwen3-VL-8B (16-px patches: 320-px cells align with the 2x2 token merge).
 model: Qwen/Qwen3-VL-8B-Instruct
 dataset: charades
 split: test

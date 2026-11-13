@@ -1,4 +1,4 @@
-# ContiGrid tokens in grid raster order, but each kept cell gets its own flat 2-D M-RoPE block.
+# Deduplicated-grid tokens in grid raster order, but each kept cell gets its own flat 2-D M-RoPE block.
 model: Qwen/Qwen2-VL-7B-Instruct
 dataset: charades
 thumb: 336

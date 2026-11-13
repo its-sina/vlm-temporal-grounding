@@ -1,4 +1,4 @@
-# ContiGrid on Qwen2-VL-7B, Charades-STA test.
+# Deduplicated grid on Qwen2-VL-7B, Charades-STA test.
 # Overlapping 4x3 windows (stride 7), every frame encoded once on its own, tokens placed into the grid
 # cells, each frame kept only at its last copy, black padding cells dropped.
 model: Qwen/Qwen2-VL-7B-Instruct

@@ -1,5 +1,5 @@
 # Joint grid ViT encoding (hybrid depth 0 == standard) with last-copy deduplication and padding removal:
-# isolates per-frame vs. joint visual encoding inside ContiGrid.
+# isolates per-frame vs. joint visual encoding inside the deduplicated grid.
 model: Qwen/Qwen2-VL-7B-Instruct
 dataset: charades
 thumb: 336

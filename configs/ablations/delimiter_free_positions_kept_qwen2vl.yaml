@@ -1,4 +1,4 @@
-# ContiGrid tokens in cell-major order with the per-frame sequence's positions but without its
+# Deduplicated-grid tokens in cell-major order with the per-frame sequence's positions but without its
 # delimiter tokens (2 unused positions between frames).
 model: Qwen/Qwen2-VL-7B-Instruct
 dataset: charades

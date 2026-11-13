@@ -3,7 +3,7 @@
 Overlapping windows contain the same frame several times. Instead of encoding every grid image,
 the frames can be encoded once and their merged tokens placed into the cell positions of each
 window (``iso_encode``). This works with any Qwen-VL vision tower and is the encoding used by
-ContiGrid.
+the deduplicated grid representation (``--method iso+dedup``).
 
 Structural facts of the Qwen2-VL vision tower that make this exact:
 
